@@ -459,7 +459,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('owner  📜', url="https://t.me/Pvs_movie_owner")
+            InlineKeyboardButton('owner  📜', url="https://t.me/Pavan_72826")
             ],[
             InlineKeyboardButton('✘ Cʟᴏꜱᴇ', 'close_data'),
             InlineKeyboardButton('« Bᴀᴄᴋ', 'start')          
@@ -468,7 +468,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         
     elif query.data == "owner":
         buttons = [[
-            InlineKeyboardButton('owner ID', url='https://t.me/Pvs_movie_owner')
+            InlineKeyboardButton('owner ID', url='https://t.me/Pavan_72826')
             ],[
             InlineKeyboardButton('‹ Bᴀᴄᴋ', 'about')
         ]]
